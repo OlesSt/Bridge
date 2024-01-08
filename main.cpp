@@ -1,5 +1,6 @@
 #include <QCoreApplication>
 #include "person.h"
+#include "BridgeExample.h"
 
 int main(int argc, char *argv[])
 {
@@ -8,6 +9,8 @@ int main(int argc, char *argv[])
     Person p;
     p.name = "James";
     p.greet();
+
+    runBridge();
 
     return a.exec();
 }

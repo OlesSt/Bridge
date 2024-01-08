@@ -17,6 +17,8 @@ add_executable(Bridge
 
   person.h
   person.cpp
+
+  bridgeexample.h
 )
 target_link_libraries(Bridge Qt${QT_VERSION_MAJOR}::Core)
 
