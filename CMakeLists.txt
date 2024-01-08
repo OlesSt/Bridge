@@ -14,6 +14,9 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 
 add_executable(Bridge
   main.cpp
+
+  person.h
+  person.cpp
 )
 target_link_libraries(Bridge Qt${QT_VERSION_MAJOR}::Core)
 
